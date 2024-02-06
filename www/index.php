@@ -6,7 +6,7 @@ spl_autoload_register(function (string $className) {
 
 $route = $_GET['route'] ?? '';
 $routes = require __DIR__ . '/../src/routes.php';
-
+$dir = __DIR__;
 $isRouteFound = false;
 // var_dump($routes);
 // echo '<br>';
